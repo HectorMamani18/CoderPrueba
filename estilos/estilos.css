@@ -4,13 +4,14 @@
 }
 
 body{
-    background: url(../img/fondo.jpg);
-  background-size:92%;
+   
+    background-image: url(../img/t.jpg)
     
 }
 
 .navegacion{
     background-color: rgba(4, 3, 53, 0.801);
+   
 }
 .menu li{
     display: inline-block;
@@ -45,10 +46,12 @@ body{
     .marca{
         color: aliceblue;
     background-color:black;
+        display: flex;
         position: absolute;
+        bottom: 0px;
+       
 
-    bottom: 0px;
-    right: 0%;
+    
     
  
     
@@ -57,12 +60,11 @@ body{
 
    .titulo{
     color: aliceblue;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     padding: 25px;
     font-weight: bold;
     text-align: center;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-   
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
     
    }
 
@@ -529,13 +531,12 @@ font-weight: lighter;
 }
 .sregister{
    color:white ;
-    text-align: center;
+    
     padding: 0px;
     background-color: #00080c;
-    display: block;
-    position: absolute;
-  width: 463px;
-  right: 727px;
+    display: flex;
+    justify-content: center;
+   
 }
 
 .registro2{
@@ -573,9 +574,8 @@ font-weight: lighter;
 .marca5{
     color: aliceblue;
     background-color:black;
-     position: absolute;
-    bottom:0px;
-    right: 0%;
+     display: flex;
+     justify-content: flex-end;
 }
 
 .marca4{
@@ -585,3 +585,79 @@ font-weight: lighter;
     bottom:0px;
     right: 0%;
 }
+
+
+.contenedor{
+    display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: 0.1fr 0.1fr 1fr 0fr 1fr ;
+   grid-template-areas: 
+   "titulo titulo titulo titulo"
+   "navegador navegador navegador navegador"
+   ;
+ grid-column-gap: 5px;
+ grid-row-gap: 2px;
+}
+
+.titulo{
+    grid-area: titulo;
+}
+.navegacion{
+    grid-area: navegador;
+}  
+    @media screen and (max-width: 768px ){
+        .titulo{
+            background-color:rgb(95, 9, 95);
+        }
+    .sesiont{
+        background-color:rgb(95, 9, 95) ;
+    }
+   .sregister{
+       display: flex;
+       justify-content: center;
+
+   }
+   .marca5{
+       bottom: -100px;
+   }
+
+}
+     @media screen and (max-width:425px){
+        .titulo{
+            background-color: rgb(245, 191, 126);
+            color: #00080c;
+        }
+        
+        .menu li{
+            display: flex;
+            justify-content: flex-start;
+
+    
+        }
+      .video{
+          width: 410px;
+          
+      }  
+      .registro{
+          width: 350px;  
+      }
+      .registro2{
+          width: 350px;
+          height: 300px;
+      }
+.contorls{
+    padding: 1px;
+
+}
+.controls{
+    padding: 0px ;
+}
+
+.m5 li{
+    display: flex;
+            justify-content: flex-start;
+}
+
+
+
+    }
