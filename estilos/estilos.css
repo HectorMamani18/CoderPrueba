@@ -1,0 +1,587 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background: url(../img/fondo.jpg);
+  background-size:92%;
+    
+}
+
+.navegacion{
+    background-color: rgba(4, 3, 53, 0.801);
+}
+.menu li{
+    display: inline-block;
+    position: relative;
+    font-size: 30px;
+  padding: 0px 10px;
+ 
+  
+   
+    
+}
+.menu li a{
+   text-decoration: none;
+ color: white; 
+
+}
+
+.nacionalidad{
+    position: absolute;
+    right:   0px;
+    top: 0px;
+    
+    }
+
+.video{
+    position: absolute;
+    right: 3px;
+    bottom: 15px;
+}
+
+
+    .marca{
+        color: aliceblue;
+    background-color:black;
+        position: absolute;
+
+    bottom: 0px;
+    right: 0%;
+    
+ 
+    
+}
+
+
+   .titulo{
+    color: aliceblue;
+    background-color: black;
+    padding: 25px;
+    font-weight: bold;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+   
+    
+   }
+
+   .titulo2{
+    display:inline-block;   
+   position: absolute;
+   right: 0px;
+  background-color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   }
+
+   .n2{
+      background-color:rgba(4, 3, 53, 0.801) ; 
+   }
+   .m2 li{ 
+    display: inline-block;
+    position: relative;
+    font-size: 30px;
+  padding: 0px 10px;
+
+   }
+   .m2 li a{
+       text-decoration: none;
+       color: white;
+   }
+   .t2{
+       background-color: black;
+       color: white;
+       text-align: center;
+       
+       padding-bottom: 10px;
+       margin: 0px;
+       text-align: center;
+   }
+   .clasificacion{
+    margin: 0px; 
+    padding: 0px;
+    display: inline-block;
+    position: relative;
+    width: 255px;
+        background-color: white;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight:lighter;
+text-align: center;
+   }
+
+   .tabla{
+       background-color: rgb(6, 92, 104);
+       color: white;
+       
+   }
+   .borde{
+       background-color: aliceblue;
+       width: 900px;
+       height: 150px;
+       
+   }
+   
+  .t22{
+     background-color: aliceblue;
+    width: 900px;
+    height: 150px;
+   
+  }
+  .i2{
+    background-color: rgb(6, 92, 104);
+    color: white;
+
+  }
+  .class2{
+    display:inline-block;   
+    position: relative;
+    width: 285px;
+    font-weight: lighter;
+
+        background-color: white;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      text-align: center;
+  }
+  .img1{
+      position: absolute;
+      right: 0px;
+      bottom: 0px;
+      top: 500px;
+  }
+.marca2{
+    color: aliceblue;
+    background-color:black;
+        position: absolute;
+
+    bottom: 0px;
+    right: 0%;
+    
+
+}
+.h34{
+    background-color:  rgba(4, 3, 53, 0.801);
+}
+
+  .m3 li{
+    display: inline-block;
+    position: relative;
+    font-size: 30px;
+  padding: 0px 10px;
+  }
+
+ .m3 li a{
+    text-decoration: none;
+       color: white;   
+ } 
+
+ .tituloUno{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+    padding-bottom: 10px;
+    margin: 0px;
+    text-align: center;
+ }
+
+ .marca3{
+    color: aliceblue;
+    background-color:black;
+     position: absolute;
+    bottom:0px;
+    right: 0%;
+
+ }
+
+ .buenosAires{
+    height: 250px;
+    margin: auto;
+    display: inline-block;
+    border: 5px solid rgb(8, 8, 8);
+ }
+
+.cancun{
+    height: 250px;
+    display: block;
+    border: 5px solid rgb(7, 7, 7);
+    
+}
+.dominicana{
+    height: 250px;
+  
+    display: block;
+    border: 5px solid rgb(10, 10, 10);
+}
+
+.madrid{
+    height: 250px;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 100px;
+    left: 1000px;
+    border: 5px solid rgb(3, 3, 3);
+}
+  
+.newYork{
+    height: 250px;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 400px;
+    left: 1000px;
+    border: 5px solid rgb(14, 13, 13);
+}
+.parrafo1{
+    width: 400px;
+    height: 180px;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1.5;
+    background: white;
+    position: absolute;
+    top: 163px;
+    right: 1140px;
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.parrafo2{
+    width: 420px;
+    height: 185px;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1.5;
+    background: white;
+    position: absolute;
+    top: 442px;
+    right: 1120px;
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+.parrafo3{
+    width: 420px;
+    height: 185px;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1.5;
+    background: white;
+    position: absolute;
+    top: 724px;
+    right: 1120px;
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+
+}
+.parrafo4{
+    width: 420px;
+    height: 185px;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1.5;
+    background: white;
+    position: absolute;
+    top: 157px;
+    right: 120px;
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.parrafo5{
+    width: 420px;
+    height: 185px;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1.5;
+    background: white;
+    position: absolute;
+    top: 458px;
+    right: 120px;
+    border: 5px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.encabezado{
+    background-color: aliceblue;
+display:block; 
+width: 343px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight: lighter;
+
+}
+
+.encabezado2{
+    background-color: aliceblue;
+    display:block; 
+    width: 343px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+  
+.encabezado3{
+    background-color: aliceblue;
+    display:block; 
+    width: 343px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+
+.encabezado4{
+    display: inline-block;
+    position: absolute;
+    right: 560px;
+    top: 80px;
+    background-color: aliceblue;
+    width: 343px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    
+
+}
+ 
+
+.encabezado5{
+    display: inline-block;
+    position: absolute;
+    right: 560px;
+    top: 380px;
+    background-color: aliceblue;
+    width: 343px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+
+.n4{
+    background-color: rgba(4, 3, 53, 0.801) ;
+}
+
+.m4 li{
+    display: inline-block;
+    position: relative;
+    font-size: 30px;
+  padding: 0px 10px;
+}
+
+.m4 li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.pagos{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+    padding-bottom: 10px;
+    margin: 0px;
+    text-align: center;
+}
+
+.h1{
+    background-color: rgba(224, 224, 224, 0.678);
+    color: rgb(10, 10, 10);
+    text-align: center;
+    
+    padding: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.h2{
+    background-color: rgba(224, 224, 224, 0.678);
+    color: rgb(10, 10, 10);
+    text-align: center;
+    
+    padding: 10px;
+    margin: 0px;
+    text-align: center;   
+}
+
+.h3{
+    background-color: rgba(224, 224, 224, 0.678);
+    color: rgb(10, 10, 10);
+    text-align: center;
+    
+    padding: 10px;
+    margin: 0px;
+    text-align: center;   
+}
+
+.h4{
+    background-color: rgba(224, 224, 224, 0.678);
+    color: rgb(10, 10, 10);
+    text-align: center;
+    
+    padding: 10px;
+    margin: 0px;
+    text-align: center;   
+
+}
+
+.h5{
+    background-color: rgba(224, 224, 224, 0.678);
+    color: rgb(10, 10, 10);
+    text-align: center;
+    
+    padding: 10px;
+    margin: 0px;
+    text-align: center;   
+}
+.h5{
+    background-color: rgba(224, 224, 224, 0.678);
+    color: rgb(10, 10, 10);
+    text-align: center;
+    
+    padding: 10px;
+    margin: 0px;
+    text-align: center; 
+
+}
+
+.h6{
+    background-color: rgba(224, 224, 224, 0.678);
+    color: rgb(10, 10, 10);
+    text-align: center;
+    
+    padding: 10px;
+    margin: 0px;
+    text-align: center;   
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.h7{
+    background-color: rgba(224, 224, 224, 0.678);
+    color: rgb(10, 10, 10);
+    text-align: center;
+    
+    padding: 10px;
+    margin: 0px;
+    text-align: center;   
+}
+
+.oh{
+    background-color: rgba(224, 224, 224, 0.678);
+    color: rgb(10, 10, 10);
+    text-align: center;
+    
+    padding: 10px;
+    margin: 0px;
+    text-align: center;  
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+.n5{
+    background-color:rgba(4, 3, 53, 0.801) ;
+}
+
+.m5 li{
+    display: inline-block;
+    position: relative;
+    font-size: 30px;
+  padding: 0px 10px;
+}
+.m5 li a{
+    color: white;
+    text-decoration: none;
+}
+.sesiont{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.registro{
+    width: 400px;
+    background: rgba(2, 2, 2, 0.678);;
+    padding: 30px;
+    margin: auto;
+    margin-top: 0px;
+    border-radius: 4px;
+    color: white;
+    border: #f6f6f6 solid 3px;
+}
+
+.contorls{
+    width: 100%;
+    background: #f1f0f0;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid white;
+    font-size: 18px;
+}
+.boton{
+    width: 100%;
+    background: #f6f6f6;
+    border: none;
+    padding:12px ;
+    color: #00080c;
+    margin: 16px 0;
+    font-size: 16px;
+    background-color: rgb(7, 136, 136);
+}
+.logint{
+    text-align: center;
+    margin-bottom: 0px;
+    background-color: aliceblue;
+    
+    
+}
+.sregister{
+   color:white ;
+    text-align: center;
+    padding: 0px;
+    background-color: #00080c;
+    display: block;
+    position: absolute;
+  width: 463px;
+  right: 727px;
+}
+
+.registro2{
+    width: 400px;
+    background: rgba(2, 2, 2, 0.678);;
+    padding: 30px;
+    margin: auto;
+    margin-top: 0px;
+    border-radius: 4px;
+    color: white;
+    border: #f6f6f6 solid 3px;
+}
+
+
+.controls{
+    width: 100%;
+    background: #f1f0f0;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid white;
+    font-size: 18px;
+}
+.boton2{
+    width: 100%;
+    background: #f6f6f6;
+    border: none;
+    padding:12px ;
+    color: #00080c;
+    margin: 16px 0;
+    font-size: 16px;
+    background-color: rgb(7, 136, 136);
+}
+
+.marca5{
+    color: aliceblue;
+    background-color:black;
+     position: absolute;
+    bottom:0px;
+    right: 0%;
+}
+
+.marca4{
+    color: aliceblue;
+    background-color:black;
+     position: absolute;
+    bottom:0px;
+    right: 0%;
+}
