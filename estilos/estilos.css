@@ -628,12 +628,17 @@ font-weight: lighter;
             color: #00080c;
         }
         
-        .menu li{
+        .menu li a{
             display: flex;
-            justify-content: flex-start;
+            align-items: flex-end;
+            font-size: 15px;
+        
+ }
 
+ .marca5 p{
+     bottom: 0px;
     
-        }
+ }
       .video{
           width: 410px;
           
@@ -646,18 +651,22 @@ font-weight: lighter;
           height: 300px;
       }
 .contorls{
-    padding: 1px;
+    padding: 3px;
 
 }
 .controls{
     padding: 0px ;
 }
 
-.m5 li{
+
+.sesiont{
+    background-color: rgb(245, 191, 126) ;
+    color: #00080c;
+}
+.m5 li a{
     display: flex;
-            justify-content: flex-start;
+  justify-content: flex-start;
+    font-size: 15px;
 }
 
-
-
-    }
+ }
