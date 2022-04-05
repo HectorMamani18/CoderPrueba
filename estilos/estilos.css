@@ -635,22 +635,23 @@ h1 {
     background-color: rgba(105, 103, 247, 0.947);
 padding: 0px;
 margin: 0px;
+
+
 }
 
 .tituloParrafo{
     background-color: black;
     color:rgb(162, 162, 163);
-    position: fixed;
-    top: 96px;
+    margin-top: 0px;
+    
+    
    
 
 }
 .primerParrafo{
     background-color: black;
     color: rgb(162, 162, 163);
-    display: flex;
-    
-  
+     
 }
 
 
