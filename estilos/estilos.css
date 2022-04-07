@@ -60,7 +60,7 @@ justify-content: end;
 .titulo {
     color: black;
     font-size: 45px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 
 }
@@ -341,108 +341,13 @@ h1 {
 }
 
 .pagos {
-    background-color: black;
+    background-color: rgba(236, 233, 233, 0.415);
     color: white;
     text-align: center;
 
     padding-bottom: 10px;
     margin: 0px;
     text-align: center;
-}
-
-.h1 {
-    background-color: rgba(224, 224, 224, 0.678);
-    color: rgb(10, 10, 10);
-    text-align: center;
-
-    padding: 30px;
-    margin-top: 50px;
-    text-align: center;
-}
-
-.h2 {
-    background-color: rgba(224, 224, 224, 0.678);
-    color: rgb(10, 10, 10);
-    text-align: center;
-
-    padding: 10px;
-    margin: 0px;
-    text-align: center;
-}
-
-.h3 {
-    background-color: rgba(224, 224, 224, 0.678);
-    color: rgb(10, 10, 10);
-    text-align: center;
-
-    padding: 10px;
-    margin: 0px;
-    text-align: center;
-}
-
-.h4 {
-    background-color: rgba(224, 224, 224, 0.678);
-    color: rgb(10, 10, 10);
-    text-align: center;
-
-    padding: 10px;
-    margin: 0px;
-    text-align: center;
-
-}
-
-.h5 {
-    background-color: rgba(224, 224, 224, 0.678);
-    color: rgb(10, 10, 10);
-    text-align: center;
-
-    padding: 10px;
-    margin: 0px;
-    text-align: center;
-}
-
-.h5 {
-    background-color: rgba(224, 224, 224, 0.678);
-    color: rgb(10, 10, 10);
-    text-align: center;
-
-    padding: 10px;
-    margin: 0px;
-    text-align: center;
-
-}
-
-.h6 {
-    background-color: rgba(224, 224, 224, 0.678);
-    color: rgb(10, 10, 10);
-    text-align: center;
-
-    padding: 10px;
-    margin: 0px;
-    text-align: center;
-
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-.h7 {
-    background-color: rgba(224, 224, 224, 0.678);
-    color: rgb(10, 10, 10);
-    text-align: center;
-
-    padding: 10px;
-    margin: 0px;
-    text-align: center;
-}
-
-.oh {
-    background-color: rgba(224, 224, 224, 0.678);
-    color: rgb(10, 10, 10);
-    text-align: center;
-
-    padding: 10px;
-    margin: 0px;
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .n5 {
@@ -644,7 +549,55 @@ margin: 0px;
     color:rgb(162, 162, 163);
 
 }
-     
+
+ .buttons2 a{
+    text-decoration: none;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin: 8px;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+ }    
+.flex-container2{
+    display: flex;
+    flex-direction:column;
+    position: fixed;
+    bottom: 40px;
+    right: 8px;
+}
+.buttons2 a:hover {
+    transform: scale(1.2);
+}
+.buttons3 a{
+    text-decoration: none;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin: 8px;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+ }    
+.flex-container3{
+    display: flex;
+    flex-direction:column;
+    position: fixed;
+    bottom: 38px;
+    right: 10px;
+}
+.buttons3 a:hover {
+    transform: scale(1.2);
+}
 
 
 
@@ -664,6 +617,14 @@ margin: 0px;
         border: 1px solid white;
     } 
     
+
+    .flex-container2{
+        display: flex;
+        flex-direction:row-reverse;
+        position: fixed;
+        bottom: 40px;
+        right: 2px;
+    }
 }
 
 @media screen and (max-width:425px) {
@@ -711,5 +672,11 @@ margin: 0px;
         font-size: 15px;
     }
 
-
+    .flex-container3{
+        display: flex;
+        flex-direction:row-reverse;
+        position: fixed;
+        bottom: 38px;
+        right: 10px;
+    }
 }
