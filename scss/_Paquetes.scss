@@ -1,0 +1,73 @@
+body{
+    background-image: url(../img/t.jpg);
+    
+}
+
+.navBar{
+    background-color: rgba(105, 103, 247, 0.947);
+    padding:5px ;
+    
+    .titulo {color: black;
+        font-size: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+
+ .navItems{
+     font-family: 'Times New Roman', Times, serif;
+     li a{
+         color: black;
+         font-size:20px ;
+     }
+ }
+    .navbar-toggler-icon{
+        background-color: black;
+    }
+}
+
+.t2{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.buttons {
+    min-width: 350px;
+    align-items: flex-end;
+  .flex-container{
+    display: flex;
+    flex-direction: row-reverse;
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+     .rs{
+    text-decoration: none;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin: 8px;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+    }
+  }
+}
+
+
+
+
+.marca2{
+    background-color:$colorPredeterminado ;
+    color: aliceblue;
+    padding: 1px 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px
+   
+}
+
+
