@@ -1,0 +1,33 @@
+.marca{
+    @extend .marca2;
+    height: 5%;
+}
+
+.nacionalidad{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+
+$estilos:(
+    color:black,
+    centro:center,
+    letracolor:rgb(162, 162, 163),
+
+
+);
+.tituloParrafo{
+    background-color:map-get($estilos,color);
+    color:map-get($estilos,letracolor);
+    text-align:map-get($estilos,centro ) ;
+
+}
+@mixin flex($flex,$direccion,$posicion){
+    display: $flex;
+    flex-direction: $direccion;
+    flex-wrap: $posicion;
+ }
+
+ .flex-container{
+     @include flex(flex,row-reverse ,fixed )
+     } 

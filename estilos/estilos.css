@@ -598,6 +598,10 @@ margin: 0px;
 .buttons3 a:hover {
     transform: scale(1.2);
 }
+.pagado{
+    background-color: #00080c;
+    color: #f1f0f0;
+}
 
 
 
