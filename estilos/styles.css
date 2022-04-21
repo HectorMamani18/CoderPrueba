@@ -16,7 +16,7 @@ body {
   .navBar .navbar-toggler-icon {
     background-color: black; }
 
-.t2 {
+.t2, .tituloUno {
   text-align: center;
   background-color: black;
   color: white; }
@@ -43,6 +43,8 @@ body {
       border-radius: 50%;
       box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
       transition: all .4s ease-in-out; }
+      .buttons .flex-container .rs .buttons a:hover {
+        transform: scale(1.2); }
 
 .marca2, .marca {
   background-color: rgba(105, 103, 247, 0.947);
@@ -58,11 +60,44 @@ body {
 .navBar {
   background-color: pink; }
 
-.t2 {
+.t2, .tituloUno {
   background-color: rgba(0, 0, 0, 0.611); }
 
 .marca2, .marca {
   background-color: pink; }
+
+.box {
+  background-color: rgba(248, 207, 214, 0.841);
+  display: block;
+  position: absolute;
+  bottom: 60%;
+  width: 100%;
+  height: 15%;
+  padding: 2%; }
+  .box .searchbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .box .searchbutton .inputs {
+      margin: 1%;
+      padding: 1%;
+      width: 23%; }
+
+.box2 {
+  display: flex;
+  position: absolute;
+  bottom: 53%;
+  background-color: rgba(248, 207, 214, 0.993);
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 10%; }
+  .box2 .btn {
+    background-color: rgba(3, 2, 9, 0.79);
+    width: 30%;
+    border: black solid 1px;
+    color: white; }
 
 .marca {
   height: 5%; }
@@ -81,3 +116,151 @@ body {
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: fixed; }
+
+.marca2, .marca {
+  margin-top: 0%; }
+
+.buttons2 {
+  min-width: 350px;
+  align-items: flex-end; }
+  .buttons2 .flex-container2 {
+    display: flex;
+    flex-direction: row-reverse;
+    position: fixed;
+    bottom: 40px;
+    right: 10px; }
+    .buttons2 .flex-container2 .rs2 {
+      text-decoration: none;
+      font-size: 25px;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      margin: 8px;
+      text-align: center;
+      background: #314652;
+      color: #f1f1f1;
+      border-radius: 50%;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+      transition: all .4s ease-in-out; }
+
+.container {
+  width: 62%;
+  justify-content: center; }
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%; } }
+
+.pagado {
+  color: white;
+  background-color: black;
+  text-align: center; }
+
+.pagos {
+  color: #050000;
+  background-color: rgba(231, 218, 218, 0.487);
+  text-align: center; }
+
+.buttons3 {
+  min-width: 350px;
+  align-items: flex-end; }
+  .buttons3 .flex-container3 {
+    display: flex;
+    flex-direction: row-reverse;
+    position: fixed;
+    bottom: 40px;
+    right: 10px; }
+    .buttons3 .flex-container3 .rs3 {
+      text-decoration: none;
+      font-size: 25px;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      margin: 8px;
+      text-align: center;
+      background: #314652;
+      color: #f1f1f1;
+      border-radius: 50%;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+      transition: all .4s ease-in-out; }
+
+.sesiont {
+  background-color: black;
+  color: white;
+  text-align: center; }
+
+.sregister {
+  color: white;
+  display: flex;
+  justify-content: center; }
+
+.registro2 {
+  width: 400px;
+  background: rgba(2, 2, 2, 0.678);
+  padding: 30px;
+  margin: auto;
+  margin-top: 0px;
+  border-radius: 4px;
+  color: white;
+  border: #f6f6f6 solid 3px; }
+  .registro2 .controls {
+    width: 100%;
+    background: #f1f0f0;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid white;
+    font-size: 18px; }
+  .registro2 .boton2 {
+    width: 100%;
+    background: #f6f6f6;
+    border: none;
+    padding: 12px;
+    color: #00080c;
+    margin: 16px 0;
+    font-size: 16px;
+    background-color: #078888; }
+
+.buttons4 {
+  min-width: 350px;
+  align-items: flex-end; }
+  .buttons4 .flex-container4 {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 40px;
+    right: 10px; }
+    .buttons4 .flex-container4 .rs4 {
+      text-decoration: none;
+      font-size: 25px;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      margin: 8px;
+      text-align: center;
+      background: #314652;
+      color: #f1f1f1;
+      border-radius: 50%;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+      transition: all .4s ease-in-out; }
+      .buttons4 .flex-container4 .rs4 .buttons a:hover {
+        transform: scale(1.2); }
+
+@media screen and (max-width: 768px) {
+  .buttons4 .flex-container4 {
+    display: flex;
+    flex-direction: column; } }
+
+@media screen and (max-width: 500px) {
+  .buttons4 .flex-container4 {
+    display: flex;
+    flex-direction: row; }
+  .registro2 {
+    width: 350px;
+    height: 300px; }
+  .controls {
+    padding: 0px;
+    height: 9%; }
+  .registro2 {
+    width: 352px;
+    height: 467px; } }

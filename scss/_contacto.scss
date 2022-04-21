@@ -1,0 +1,117 @@
+.sesiont {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+.sregister {
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.registro2 {
+    width: 400px;
+    background: rgba(2, 2, 2, 0.678);
+    padding: 30px;
+    margin: auto;
+    margin-top: 0px;
+    border-radius: 4px;
+    color: white;
+    border: #f6f6f6 solid 3px;
+
+    .controls {
+        width: 100%;
+        background: #f1f0f0;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid white;
+        font-size: 18px;
+
+    }
+    .boton2 {
+        width: 100%;
+        background: #f6f6f6;
+        border: none;
+        padding: 12px;
+        color: #00080c;
+        margin: 16px 0;
+        font-size: 16px;
+        background-color: rgb(7, 136, 136);
+    }
+
+
+}
+
+.buttons4{
+    min-width: 350px;
+    align-items: flex-end;
+
+    .flex-container4 {
+        display: flex;
+        flex-direction:column;
+        position: fixed;
+        bottom: 40px;
+        right: 10px;
+
+        .rs4 {
+            text-decoration: none;
+            font-size: 25px;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            margin: 8px;
+            text-align: center;
+            background: #314652;
+            color: #f1f1f1;
+            border-radius: 50%;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+            transition: all .4s ease-in-out;
+
+            .buttons a:hover {
+                transform: scale(1.2);
+
+
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+   
+    .buttons4{
+        .flex-container4{
+            display: flex;
+            flex-direction:column ;
+        } 
+    
+}
+ }
+ @media screen and (max-width:500px) {
+    .buttons4{
+        .flex-container4{
+            display: flex;
+            flex-direction: row;
+        } 
+          }
+    .registro2 {
+        width: 350px;
+        height: 300px;
+    }
+    .controls {
+        padding: 0px;
+        height: 9%;
+    } 
+
+    .registro2 {
+        width: 352px;
+        height: 467px;
+    }
+
+ 
+}
