@@ -31,3 +31,8 @@ $estilos:(
  .flex-container{
      @include flex(flex,row-reverse ,fixed )
      } 
+
+  .letrapp{
+
+    color:rgb(250, 169, 182);
+  }

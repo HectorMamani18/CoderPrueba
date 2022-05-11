@@ -67,7 +67,7 @@ body {
   background-color: pink; }
 
 .box {
-  background-color: rgba(248, 207, 214, 0.841);
+  background-color: rgba(248, 207, 214, 0.993);
   display: block;
   position: absolute;
   bottom: 60%;
@@ -99,6 +99,29 @@ body {
     border: black solid 1px;
     color: white; }
 
+.ptp {
+  background-color: rgba(255, 192, 203, 0.831);
+  text-align: center;
+  color: #000000e0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.contenedorp {
+  display: inline-block;
+  position: absolute;
+  bottom: 38%; }
+
+@media screen and (max-width: 768px) {
+  .contenedorp {
+    display: inline-block;
+    position: absolute;
+    bottom: 20%; } }
+
+@media screen and (max-width: 500px) {
+  .contenedorp {
+    display: inline-block;
+    position: absolute;
+    bottom: 18%; } }
+
 .marca {
   height: 5%; }
 
@@ -116,6 +139,9 @@ body {
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: fixed; }
+
+.letrapp {
+  color: #faa9b6; }
 
 .marca2, .marca {
   margin-top: 0%; }
@@ -192,7 +218,9 @@ body {
 .sregister {
   color: white;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  border: pink solid 6px;
+  background-color: #00080c; }
 
 .registro2 {
   width: 400px;
@@ -249,7 +277,11 @@ body {
 @media screen and (max-width: 768px) {
   .buttons4 .flex-container4 {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column; }
+  .buttons4 .contenedorp {
+    display: inline-block;
+    position: absolute;
+    bottom: 28%; } }
 
 @media screen and (max-width: 500px) {
   .buttons4 .flex-container4 {

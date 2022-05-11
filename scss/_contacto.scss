@@ -8,7 +8,10 @@
 .sregister {
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
+    border: pink solid 6px ;
+    background-color: #00080c;
+    
 
 }
 
@@ -88,6 +91,13 @@
         .flex-container4{
             display: flex;
             flex-direction:column ;
+        } 
+
+        .contenedorp{
+            display:inline-block;
+            position: absolute;
+            bottom: 28%;
+            
         } 
     
 }
